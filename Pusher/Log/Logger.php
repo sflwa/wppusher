@@ -8,6 +8,7 @@ use Pusher\Log\LogLevel as PsrLogLevel;
 class Logger implements PsrLoggerInterface
 {
     protected $log;
+    protected $file;
 
     public static function file($filename)
     {
