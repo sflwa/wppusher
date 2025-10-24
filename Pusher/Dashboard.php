@@ -47,6 +47,11 @@ class Dashboard
     private $plugins;
 
     /**
+     * @var Pusher
+     */
+    private $pusher;
+
+    /**
      * @var ThemeRepository
      */
     private $themes;
